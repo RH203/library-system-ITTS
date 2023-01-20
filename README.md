@@ -1,2 +1,2 @@
 # library-system-ITTS
-Creating a library system using language c
+Create a library system using C language
