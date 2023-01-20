@@ -173,13 +173,13 @@ int main (){
         scanf("%s", checkUser);
         printf("\nInput Password: ");
         scanf("%s", checkPass);
+        system("cls");
         if(strcmp(checkUser, username) == 0 && strcmp(checkPass, password) == 0){
             printf("\tSuccessful Login!\n");
             break;
         }else{
             printf("Password or Username wrong!\n");
         }
-        system("cls");
         limit++;
     }while(limit < 3);
     
@@ -202,6 +202,9 @@ int main (){
             printf("\n\tInput Menu: ");
             scanf("%d", &menu_program);
                 }
+                printf("Press any key to continue");
+                getchar();
+                system("cls");
 
             switch (menu_program){
             case 1:
@@ -253,6 +256,7 @@ int main (){
                 printf("The total number of books in the current database: %d Book", num_totalBook);
                 break;
             default:
+                printf("It looks like the number you entered is not in the program menu");
                 break;
             }
         }while(menu_program != 0);
