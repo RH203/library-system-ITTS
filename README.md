@@ -1,5 +1,5 @@
 # Library System C Language
-This project was created to fulfill the final project of the Algorithm and Basic Programming courses.
+This project was created to fulfill the final project of the Algorithm and Basic Programming.
 
 ## Installation
 
